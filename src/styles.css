@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    padding:0;
+    margin: 0;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+.nav-link {
+    padding: 0 1rem!important
+}
+.nav-link button {
+    color:#fff;
+}
+.nav-item.dropdown a{
+    color:#fff;
+}

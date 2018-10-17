@@ -1,0 +1,43 @@
+.home-content{
+  padding-top:4%;
+}
+mat-grid-tile {
+  background: lightblue;
+}
+.home-card{
+  height: 15em;
+  background: #659dbd;
+  width: 22%;
+  color:#fff;
+  font-weight: 900;
+  font-size: 1em;
+  letter-spacing: 5px;
+  border: 1px solid #fff;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+.slogon{
+  text-align: center;
+  font-weight: 900;
+  font-size: 2em;
+  margin-bottom: 20px;
+  border: 1px solid blue
+}
+@media (min-width: 320px) and (max-width: 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+  .home-card{
+    width: 43%;
+    letter-spacing: normal;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  .home-card{
+    width: 42%;
+    letter-spacing: 5px
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) and (orientation:landscape){
+
+}
